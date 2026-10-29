@@ -1,0 +1,40 @@
+body {
+    background-color: #e8f6f3;
+    color: #4b3f72;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    background-color: #b8e0d2;
+    padding: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+details {
+    background-color: #ddd8f3;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+}
+
+details p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+details:hover {
+    background-color: #b8e0d2;
+}
